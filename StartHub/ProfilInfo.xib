@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="423" id="KGk-i7-Jjw" customClass="ProfilInfo" customModule="StartHub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="423"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="423"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ornekPP" translatesAutoresizingMaskIntoConstraints="NO" id="Car-tE-jR9">
+                        <rect key="frame" x="16" y="13" width="46" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="KCz-U5-aWH"/>
+                            <constraint firstAttribute="height" constant="46" id="bXd-Ou-h1v"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mustafa Olmezses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0b-lM-EwE">
+                        <rect key="frame" x="70" y="19" width="170" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="Ivu-DL-kfs"/>
+                            <constraint firstAttribute="width" constant="170" id="ptA-r2-gtT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="14"/>
+                        <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21.09.2002" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYT-Mh-Zgh">
+                        <rect key="frame" x="248" y="21" width="65" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="PST-cW-JrS"/>
+                            <constraint firstAttribute="height" constant="15" id="jw3-dC-7MV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <color key="textColor" systemColor="systemGray3Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="molmezses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKH-uQ-acq">
+                        <rect key="frame" x="82" y="39" width="189" height="9"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="189" id="Wmi-cL-opb"/>
+                            <constraint firstAttribute="height" constant="9" id="llg-PU-Gfc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <color key="textColor" systemColor="underPageBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Eh-LT-f7g">
+                        <rect key="frame" x="70" y="37" width="10" height="15.666666666666664"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="m08-4j-xTi"/>
+                            <constraint firstAttribute="height" constant="15.67" id="nhc-CE-raL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <color key="textColor" systemColor="underPageBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P89-2m-FeT">
+                        <rect key="frame" x="70" y="53.666666666666657" width="234" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="234" id="b99-XN-4sz"/>
+                            <constraint firstAttribute="height" constant="42" id="zLD-Eq-1RA"/>
+                        </constraints>
+                        <string key="text">Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke Başarılı örnekleri uzayda aramaya gerek yok. Türkiyenin mirasıyla oldukça zengin bir ülke </string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tasarim" translatesAutoresizingMaskIntoConstraints="NO" id="szm-kF-4o7">
+                        <rect key="frame" x="70" y="103" width="234" height="307"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="234" id="D7m-yu-adM"/>
+                            <constraint firstAttribute="height" constant="307" id="GPQ-NB-DbA"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="kYT-Mh-Zgh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="0ib-tB-zmj"/>
+                    <constraint firstItem="P89-2m-FeT" firstAttribute="top" secondItem="4Eh-LT-f7g" secondAttribute="bottom" constant="1" id="7cM-Uu-CzV"/>
+                    <constraint firstItem="szm-kF-4o7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="70" id="9Hd-z8-SxJ"/>
+                    <constraint firstItem="4Eh-LT-f7g" firstAttribute="leading" secondItem="Car-tE-jR9" secondAttribute="trailing" constant="8" symbolic="YES" id="Cy4-OZ-KiF"/>
+                    <constraint firstItem="4Eh-LT-f7g" firstAttribute="top" secondItem="Z0b-lM-EwE" secondAttribute="bottom" constant="1" id="EaA-sU-YrL"/>
+                    <constraint firstAttribute="bottom" secondItem="szm-kF-4o7" secondAttribute="bottom" constant="13" id="FcR-bC-QjM"/>
+                    <constraint firstItem="jKH-uQ-acq" firstAttribute="leading" secondItem="4Eh-LT-f7g" secondAttribute="trailing" constant="2" id="GHu-iT-1zn"/>
+                    <constraint firstAttribute="trailing" secondItem="P89-2m-FeT" secondAttribute="trailing" constant="16" id="H1k-gw-04c"/>
+                    <constraint firstItem="P89-2m-FeT" firstAttribute="leading" secondItem="Car-tE-jR9" secondAttribute="trailing" constant="8" symbolic="YES" id="OUz-7x-MjB"/>
+                    <constraint firstItem="Car-tE-jR9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ThE-8p-fo0"/>
+                    <constraint firstItem="Z0b-lM-EwE" firstAttribute="leading" secondItem="Car-tE-jR9" secondAttribute="trailing" constant="8" symbolic="YES" id="YQD-O8-9lL"/>
+                    <constraint firstItem="jKH-uQ-acq" firstAttribute="top" secondItem="Z0b-lM-EwE" secondAttribute="bottom" constant="3" id="ZDX-5u-eJ2"/>
+                    <constraint firstItem="Car-tE-jR9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="ca9-af-7FD"/>
+                    <constraint firstAttribute="trailing" secondItem="szm-kF-4o7" secondAttribute="trailing" constant="16" id="dvv-lA-T3y"/>
+                    <constraint firstAttribute="trailing" secondItem="kYT-Mh-Zgh" secondAttribute="trailing" constant="7" id="gZj-DB-fsF"/>
+                    <constraint firstItem="szm-kF-4o7" firstAttribute="top" secondItem="P89-2m-FeT" secondAttribute="bottom" constant="7.3300000000000001" id="o19-Hn-Q7w"/>
+                    <constraint firstItem="Z0b-lM-EwE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="u5T-kU-REn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date" destination="kYT-Mh-Zgh" id="A29-fQ-aZT"/>
+                <outlet property="userImage" destination="szm-kF-4o7" id="SMg-wp-TdQ"/>
+                <outlet property="userName" destination="jKH-uQ-acq" id="PG2-XP-hp3"/>
+                <outlet property="userNameAndSurname" destination="Z0b-lM-EwE" id="4HR-Fn-lNx"/>
+                <outlet property="userPP" destination="Car-tE-jR9" id="rLm-Yt-FO1"/>
+                <outlet property="userPostText" destination="P89-2m-FeT" id="nlH-O3-dOr"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="122.1830985915493"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ornekPP" width="648" height="646"/>
+        <image name="tasarim" width="183" height="275"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="underPageBackgroundColor">
+            <color red="0.70980392160000005" green="0.71764705880000002" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

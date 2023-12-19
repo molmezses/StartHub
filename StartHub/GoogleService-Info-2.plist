@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDNdbdjdytOniUvKsMuZ70m7coQ0h7nA08</string>
+	<key>GCM_SENDER_ID</key>
+	<string>27873965961</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.olmezsesmustafa.StartHub</string>
+	<key>PROJECT_ID</key>
+	<string>starthub-1a319</string>
+	<key>STORAGE_BUCKET</key>
+	<string>starthub-1a319.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:27873965961:ios:cae4a00dcb17c3e6a1d358</string>
+</dict>
+</plist>
